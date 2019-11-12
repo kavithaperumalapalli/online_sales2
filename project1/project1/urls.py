@@ -1,4 +1,4 @@
-"""loginproject URL Configuration
+"""project1 URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.2/topics/http/urls/
@@ -19,7 +19,7 @@ from app1 import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.showindex),
-    path('validate/', views.validateUser),
-    path('logout/', views.logoutUser),
+    path('human/', views.showhuman),
+    path('application/', views.showapplication),
+    path('app/', views.showapp),
 ]
